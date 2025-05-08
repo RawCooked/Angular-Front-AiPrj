@@ -12,8 +12,7 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'tables',         component: TablesComponent },
     { path: 'icons',          component: IconsComponent },
     { path: 'maps',           component: MapsComponent },
-    { path: 'mathematicoLogical',           component: MapsComponent },
-    { path: 'singingTalent',           component: MapsComponent },
-    { path: 'drawingTalent',           component: MapsComponent },
-    { path: 'movementDetection',           component: MapsComponent },
+    { path: 'mathematicoLogicalAndDrawingTalent',           component: IconsComponent },
+    { path: 'singingTalentAndMovementDetection',           component: MapsComponent },
+    { path: 'children',           component: TablesComponent },
 ];

@@ -20,10 +20,9 @@ declare interface RouteInfo {
 ]; */
 export const ROUTES: RouteInfo[] = [
   { path: '/dashboard', title: 'Dashboard',  icon: 'ni-tv-2 text-primary', class: '' },
-  { path: '/tables', title: 'Children',  icon:'ni-planet text-blue', class: '' },
-  { path: '/mathematicoLogical', title: 'MathematicoLogical',  icon:'ni ni-hat-3 text-blue', class: '' },
-  { path: '/singingTalent', title: 'SingingTalent',  icon:'ni-headphones text-blue', class: '' },
-  { path: '/drawingTalent', title: 'DrawingTalent',  icon:'ni-palette text-blue', class: '' },
+  { path: '/children', title: 'Children',  icon:'ni-planet text-blue', class: '' },
+  { path: '/mathematicoLogicalAndDrawingTalent', title: 'MathematicoLogical & DrawingTalent',  icon:'ni ni-hat-3 text-blue', class: '' },
+  { path: '/singingTalentAndMovementDetection', title: 'SingingTalent & Movement Analysis',  icon:'ni-headphones text-blue', class: '' },
 ];
 
 @Component({
